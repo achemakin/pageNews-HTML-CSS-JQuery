@@ -1,0 +1,188 @@
+.header {
+    padding-bottom: 32px;
+
+    background-color: #fff;
+    box-shadow: 0 0 20px #efefef;    
+}
+
+.black-bar {    
+    padding: 19px 0 18px;    
+
+    background-color: #00122f;
+    
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.black-bar-h1 {
+    display: inline-block;
+    
+    margin: 0;
+
+    width: 70%;
+
+    font-size: 16px;
+    font-weight: normal;                 
+}   
+
+.black-bar-a{
+    text-decoration: underline;
+}
+
+.black-bar-time {
+    float: right;    
+}
+
+.header-master {    
+    padding: 40px 0 34px;
+            
+    color: #91919f;    
+}
+
+.header-small-btnMenu {
+    display: none;
+    float: left; 
+    margin: 4px 0 0 5px;
+    padding: 0;
+    border: 0;
+        
+    height: 20px;
+    width: 20px;
+    
+    background: url("../img/bg.png") 50% no-repeat
+}
+
+.header-small-btnMenu:focus {
+    outline: none;    
+}
+
+.header-small-btnMenu:hover {
+    cursor: pointer;    
+}
+
+.header-logo {    
+    float:left;
+}
+
+.header-a {
+    position: relative;
+    margin: 13px 0 0 60px;
+    float: left;
+
+    width: 60px;
+    
+    border-bottom: 1px dashed #448ccb;
+    color: #448ccb;        
+}
+    
+.header-a::after {
+    position: absolute;
+    top: 1px;
+    right: -12px;            
+    
+    height: 15px;
+    width: 10px; 
+    content: "";
+    
+    background: url("../img/icon-city.png") 100% no-repeat;
+}
+
+.header-central {
+    margin: 13px 0 0 40px;
+    display: inline-block;
+}
+
+.header-time-date {
+}
+
+.header-time-clock {
+    margin-left: 24px;
+    padding-left: 25px;
+
+    height: 16px;
+            
+    background: url("../img/icon-time.png") 0 no-repeat
+}    
+
+.header-weather {      
+    margin: 8px 0 0 20px;     
+    padding: 2px 0 0px 39px;
+
+    background: url("../img/icon-weather.png") 0 no-repeat;              
+}
+
+.header-form {
+    float: right;
+                
+    height: auto;
+    width: auto;
+    background-color: #f3f3f3;
+    border-radius: 50px;
+}
+
+.header-form-input {
+    float: left;
+    padding-left: 22px;
+            
+    height: 46px;
+    width: 304px;
+
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 50px;
+
+    font-size: 12px;
+}
+    
+.header-form-input:focus { 
+    outline: none; 
+}
+
+.header-form-button {
+    position: relative;
+    float: right;     
+    right: 20px;
+    top: 14px;            
+    
+    height: 16px;
+    width: 16px;
+    
+    padding: 0;
+    border: 0;
+    background: url("../img/icon-search.png") 50% no-repeat;
+}
+
+.header-form-button:focus {
+    outline: none;    
+}
+
+.header-form-button:hover {
+    cursor: pointer;    
+}
+
+.header-nav-ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;    
+}
+
+.header-nav-li {
+    position: relative;
+    display: inline-block;
+           
+}
+
+.header-nav-li::after {
+    position: absolute;
+    right: -23px;       
+
+    content: "/";
+    color: #e1e1e5;        
+}
+
+.header-nav-li:last-child::after {
+    content: none; 
+}

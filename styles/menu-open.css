@@ -1,0 +1,51 @@
+/*Открыть меню*/
+
+.menu-open {
+    padding: 0 0 28px;
+    margin: 0 0 100px;
+    
+    background-color: #fff;
+    box-shadow: 0 0 20px #efefef;
+}
+
+.menu-open .header-small-btnMenu {
+    background: url("../img/close.png") 50% no-repeat;
+}
+
+.menu-open .header-nav {
+    display: block;
+    position: absolute;
+    
+    z-index: 10; 
+    min-width: 320px;
+    width: 100%;
+    top: 114px;
+
+    background-color:#f9f9f9;
+}
+
+.menu-open .header-nav-ul {
+    display: block;
+    margin: 0 0 0 4px;
+    padding: 0 0 140px;
+
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.menu-open .header-nav-li {
+    display: block;
+    padding: 9px 0 10px;
+
+    border-bottom: 1px solid #000;
+}
+
+.menu-open .header-nav-li::after {
+    content: none;               
+}
+
+.menu-open .header-nav-li:last-child {
+    border: none; 
+}
+
+

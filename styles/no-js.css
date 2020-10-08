@@ -1,0 +1,43 @@
+/* Если js не запустился*/
+
+@media (max-width: 767px) {
+    .no-js .header {
+        margin-bottom: 440px;
+    }
+
+    .no-js .header-master {
+        margin: 0;        
+    }
+
+    .no-js .header-central {
+        display: none;
+    }
+
+    .no-js .header-nav {
+        display: block;
+        margin: 20px 0 -560px;
+    }
+
+    .no-js .header-nav-ul {
+        margin: 0 0 0 4px;
+        padding: 0 0 140px;
+
+        font-size: 18px;
+        list-style-type: none;
+    }
+
+    .no-js .header-nav-li {
+        display: block;
+        padding: 9px 0 10px;
+
+        border-bottom: 1px solid #000;
+    }
+
+    .no-js .header-nav-li::after {
+        content: none;               
+    }
+
+    .no-js .header-nav-li:last-child {
+        border: none; 
+    }
+}
